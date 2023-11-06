@@ -1,0 +1,40 @@
+==> Preparing data..
+Files already downloaded and verified
+Classification Accuracy for Resnet18 on cifar10 with dropout and weight_decay of 1e-05:
+Correct Samples(clean): 3830 , Test Accuracy(clean):  0.383
+Correct Samples(adv): 636  Test Accuracy(adv): 0.0636
+==> Preparing data..
+Files already downloaded and verified
+Classification Accuracy for Resnet18 on cifar10 with dropout and weight_decay of 1e-05:
+Correct Samples(clean): 3911 , Test Accuracy(clean):  0.3911
+Correct Samples(adv): 649  Test Accuracy(adv): 0.0649
+Files already downloaded and verified
+========================================================================================================================
+Classification Accuracy for Resnet18 on cifar10 with dropout and weight_decay of 1e-05:
+Correct Samples(clean): 2663 , Test Accuracy(clean):  0.2663
+Correct Samples(adv): 602  Test Accuracy(adv): 0.0602
+========================================================================================================================
+Files already downloaded and verified
+========================================================================================================================
+Classification Accuracy for Resnet18 on cifar10 with dropout and weight_decay of 0.0001:
+Correct Samples(clean): 1376 , Test Accuracy(clean):  0.1376
+Correct Samples(adv): 309  Test Accuracy(adv): 0.0309
+========================================================================================================================
+Files already downloaded and verified
+========================================================================================================================
+Classification Accuracy for Resnet18 on cifar10 with dropout and weight_decay of 0.001:
+Correct Samples(clean): 1093 , Test Accuracy(clean):  0.1093
+Correct Samples(adv): 744  Test Accuracy(adv): 0.0744
+========================================================================================================================
+Files already downloaded and verified
+========================================================================================================================
+Classification Accuracy for Resnet18 on cifar10 with dropout and weight_decay of 0.01:
+Correct Samples(clean): 1008 , Test Accuracy(clean):  0.1008
+Correct Samples(adv): 190  Test Accuracy(adv): 0.019
+========================================================================================================================
+Files already downloaded and verified
+========================================================================================================================
+Classification Accuracy for Resnet18 on cifar10 with dropout and weight_decay of 0.1:
+Correct Samples(clean): 1034 , Test Accuracy(clean):  0.1034
+Correct Samples(adv): 322  Test Accuracy(adv): 0.0322
+========================================================================================================================

@@ -1,0 +1,6 @@
+==> Preparing data..
+Files already downloaded and verified
+./trained_models/resnet_cifar10_droupout_wtdecay.pth
+./trained_models/resnet_cifar10.pth
+Correct Samples(clean): 2509 , Test Accuracy(clean):  0.2509
+Correct Samples(adv): 398  Test Accuracy(adv): 0.0398

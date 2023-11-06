@@ -1,0 +1,7 @@
+==> Preparing data..
+Files already downloaded and verified
+./trained_models/resnet_cifar10.pth
+Correct Samples(clean): 5791 , Test Accuracy(clean):  0.5791
+Correct Samples(adv): 2024  Test Accuracy(adv): 0.2024
+==============================================================================
+Sun Oct 29 10:15:36 PM PDT 2023

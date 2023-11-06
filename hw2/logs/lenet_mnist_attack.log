@@ -1,0 +1,5 @@
+==> Preparing data..
+./trained_models/lenet_mnist.pth
+Correct Samples(clean): 9752 , Test Accuracy(clean):  0.9752
+Correct Samples(adv): 9471  Test Accuracy(adv): 0.9471
+Sun Oct 29 10:13:21 PM PDT 2023

@@ -1,0 +1,22 @@
+/home/ridha/Documents/AI539Trustworthy/hw1copy
+ridha
+Sun Oct 29 10:49:35 PM PDT 2023
+==============================================================================
+==> Preparing data..
+Files already downloaded and verified
+./trained_models/resnet_cifar10.pth
+Correct Samples(adv): 2068  Epsilon: 0.01  Test Accuracy(adv): 0.2068
+Correct Samples(adv): 2039  Epsilon: 0.02  Test Accuracy(adv): 0.2039
+Correct Samples(adv): 2041  Epsilon: 0.03  Test Accuracy(adv): 0.2041
+Correct Samples(adv): 1936  Epsilon: 0.04  Test Accuracy(adv): 0.1936
+Correct Samples(adv): 1918  Epsilon: 0.05  Test Accuracy(adv): 0.1918
+Correct Samples(adv): 1882  Epsilon: 0.1  Test Accuracy(adv): 0.1882
+Correct Samples(adv): 1691  Epsilon: 0.2  Test Accuracy(adv): 0.1691
+Correct Samples(adv): 1498  Epsilon: 0.3  Test Accuracy(adv): 0.1498
+Correct Samples(adv): 1417  Epsilon: 0.4  Test Accuracy(adv): 0.1417
+Correct Samples(adv): 1333  Epsilon: 0.5  Test Accuracy(adv): 0.1333
+Correct Samples(adv): 884  Epsilon: 1.0  Test Accuracy(adv): 0.0884
+Epsilon: [0.01, 0.02, 0.03, 0.04, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 1.0]
+Epsilon Accuracy Array: [0.2068, 0.2039, 0.2041, 0.1936, 0.1918, 0.1882, 0.1691, 0.1498, 0.1417, 0.1333, 0.0884]
+==============================================================================
+Sun Oct 29 11:10:21 PM PDT 2023

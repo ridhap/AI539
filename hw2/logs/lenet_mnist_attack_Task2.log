@@ -1,0 +1,21 @@
+/home/ridha/Documents/AI539Trustworthy/hw1copy
+ridha
+Sun Oct 29 10:42:04 PM PDT 2023
+==============================================================================
+==> Preparing data..
+./trained_models/lenet_mnist.pth
+Correct Samples(adv): 9459  Epsilon: 0.01  Test Accuracy(adv): 0.9459
+Correct Samples(adv): 9449  Epsilon: 0.02  Test Accuracy(adv): 0.9449
+Correct Samples(adv): 9456  Epsilon: 0.03  Test Accuracy(adv): 0.9456
+Correct Samples(adv): 9474  Epsilon: 0.04  Test Accuracy(adv): 0.9474
+Correct Samples(adv): 9476  Epsilon: 0.05  Test Accuracy(adv): 0.9476
+Correct Samples(adv): 9465  Epsilon: 0.1  Test Accuracy(adv): 0.9465
+Correct Samples(adv): 9453  Epsilon: 0.2  Test Accuracy(adv): 0.9453
+Correct Samples(adv): 9439  Epsilon: 0.3  Test Accuracy(adv): 0.9439
+Correct Samples(adv): 9467  Epsilon: 0.4  Test Accuracy(adv): 0.9467
+Correct Samples(adv): 9350  Epsilon: 0.5  Test Accuracy(adv): 0.935
+Correct Samples(adv): 8493  Epsilon: 1.0  Test Accuracy(adv): 0.8493
+Epsilon: [0.01, 0.02, 0.03, 0.04, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 1.0]
+Epsilon Accuracy Array: [0.9459, 0.9449, 0.9456, 0.9474, 0.9476, 0.9465, 0.9453, 0.9439, 0.9467, 0.935, 0.8493]
+==============================================================================
+Sun Oct 29 10:49:35 PM PDT 2023
