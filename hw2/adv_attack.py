@@ -46,11 +46,11 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='PyTorch CIFAR10 Training')
     parser.add_argument('--model', default='resnet', type=str , help='model name')
     parser.add_argument('--dataset', default='cifar10', type=str , help='dataset name')
-    parser.add_argument('--weight_decay', default=5e-4, type=float, help='weight decay in optimizer')
+    # parser.add_argument('--weight_decay', default=5e-4, type=float, help='weight decay in optimizer')
     args = parser.parse_args()
 
 
-    sys.stdout = open(f'/home/ridha/Documents/AI539Trustworthy/hw2/logs/{args.model}_{args.dataset}wtdecay_adv_attack.txt', 'a')
+    sys.stdout = open(f'/home/ridha/Documents/AI539Trustworthy/hw2/logs/{args.model}_{args.dataset}_adv_train_attack.txt', 'a')
 
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     # Data
@@ -74,7 +74,7 @@ if __name__ == "__main__":
         testset = torchvision.datasets.MNIST(root='./data', train=False, download=True, transform=transform_test)
         testloader = torch.utils.data.DataLoader(testset, batch_size=1, shuffle=False, num_workers=1)
     print("="*120)
-    print(f'Classification Accuracy for Resnet18 on cifar10 with dropout and weight_decay of {args.weight_decay}:')
+    # print(f'Classification Accuracy for Resnet18 on cifar10 with dropout and weight_decay of {args.weight_decay}:')
     # Model
     if args.dataset=='cifar10':
        if args.model=='resnet':
@@ -88,7 +88,7 @@ if __name__ == "__main__":
         model = torch.nn.DataParallel(model)
         cudnn.benchmark = True
 
-    model_path=f'./wt_decay_5_resnet_models/{args.model}_{args.dataset}_{args.weight_decay}.pth'
+    model_path=f'./trained_models/{args.model}_{args.dataset}_adv_train.pth'
   
     checkpoint=torch.load(model_path)
     model.load_state_dict(checkpoint['net'])
@@ -106,7 +106,7 @@ if __name__ == "__main__":
         
     
     for model_pth in ['adv_train']:    
-        model_path=f'./wt_decay_5_resnet_models/{args.model}_{args.dataset}_{args.weight_decay}.pth'
+        model_path=f'./trained_models/{args.model}_{args.dataset}_adv_train.pth'
 
         checkpoint=torch.load(model_path)
         model.load_state_dict(checkpoint['net'])

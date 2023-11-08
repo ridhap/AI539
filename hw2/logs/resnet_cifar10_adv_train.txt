@@ -1,0 +1,12 @@
+Model: resnet
+Dataset: cifar10
+Learning Rate: 0.01
+No.of Epochs: 50
+Weight Decay: 0.0005
+adv_train
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+==> Building model..
+
+Epoch: 0
